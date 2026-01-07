@@ -5,7 +5,7 @@ A simple, full-stack application designed to translate Chinese text into English
 ## Tech Stack
 
 - **Backend**: Python (FastAPI)
-- **Frontend**: Web (HTML, CSS, JavaScript)
+- **Frontend**: Flutter (cross-platform)
 - **AI**: Google Gemini API
 
 ## Setup
@@ -19,18 +19,17 @@ A simple, full-stack application designed to translate Chinese text into English
 
 ### Frontend
 
-1.  Open `src/frontend/index.html` in your web browser.
-2.  Or serve it with a simple HTTP server:
-    ```bash
-    cd src/frontend
-    python -m http.server 8080
-    ```
-3.  Visit `http://localhost:8080` in your browser.
+1.  Navigate to `src/frontend`.
+2.  Install dependencies: `flutter pub get`.
+3.  Run the app:
+    - For desktop: `flutter run -d windows` (or `macos`, `linux`)
+    - For web: `flutter run -d chrome`
+    - For mobile: Connect your device and run `flutter run`
 
 ## Usage
 
 1.  Start the backend server (default: `http://localhost:8000`).
-2.  Open the frontend in your browser.
+2.  Launch the Flutter app.
 3.  Enter Chinese text in the input field.
 4.  Click "翻译" (Translate) button.
 5.  View the English translation and extracted keywords.
