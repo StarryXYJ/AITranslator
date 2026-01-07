@@ -1,2 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
 .env
-*.env
+
+# Flutter
+.dart_tool/
+.idea/
+.vscode/
+build/
+.pub-cache/
+.packages
+pubspec.lock
